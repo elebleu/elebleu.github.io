@@ -1,0 +1,6 @@
+# Source material — not part of the published site
+/Branding/
+/Images/
+/Website Copy/
+/Website Training Templates/
+*.code-workspace
