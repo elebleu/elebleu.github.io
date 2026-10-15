@@ -33,7 +33,7 @@
   /* Type */
   --font-heading: "Cormorant Garamond", serif;
   --font-body: "DM Sans", sans-serif;
-  --font-script: "Dancing Script", cursive;
+  --font-script: "Shadows Into Light", cursive;
 
   /* Layout */
   --container-max: 1120px;
@@ -150,6 +150,22 @@ p {
 
 .section--tight {
   padding: clamp(40px, 6vw, 72px) 0;
+}
+
+.about-divider {
+  padding: clamp(8px, 2vw, 20px) 0 0;
+}
+
+.about-divider h2 {
+  font-family: var(--font-script);
+  font-weight: 400;
+  color: var(--muted-olive);
+  font-size: clamp(2.6rem, 5.5vw, 4.2rem);
+  line-height: 1.15;
+}
+
+.about-divider + section {
+  padding-top: clamp(16px, 3vw, 32px);
 }
 
 .section--alt {
@@ -717,6 +733,10 @@ p {
 
 .shape-divider-bottom--prominent svg {
   height: clamp(80px, 12vw, 160px);
+}
+
+.shape-divider-bottom--round svg {
+  height: clamp(50px, 7vw, 96px);
 }
 
 .hero-actions {
@@ -1368,10 +1388,10 @@ p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 48px;
-  height: 3px;
+  width: 90px;
+  height: 1px;
   background: var(--muted-olive);
-  border-radius: 2px;
+  border-radius: 1px;
 }
 
 .pull-quote::before {
