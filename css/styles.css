@@ -1201,6 +1201,17 @@ p {
   background: #c4a276;
 }
 
+@media (max-width: 780px) {
+  .price-box--brushstroke {
+    aspect-ratio: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  .price-box--brushstroke .price-box-inner {
+    transform: none;
+  }
+}
+
 .fit-grid {
   display: grid;
   gap: 2rem;
