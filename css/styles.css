@@ -1195,6 +1195,8 @@ p {
 .price-box-cta {
   background: var(--warm-sand);
   color: var(--charcoal);
+  white-space: normal;
+  text-align: center;
 }
 
 .price-box-cta:hover {
